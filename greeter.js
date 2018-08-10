@@ -1,1 +1,1 @@
-module.exports = s => "hello" + s;
+module.exports = s => "hello " + s;

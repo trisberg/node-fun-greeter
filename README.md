@@ -1,7 +1,7 @@
 # node-fun-greeter
 Sample riff node greeter function to be used with Knative
 
-# create function
+## create function
 
 ```
 riff function create node greeter \
@@ -10,4 +10,8 @@ riff function create node greeter \
   --image $USER/node-fun-greeter
 ```
 
- 
+## invoke function
+
+```
+riff service invoke greeter -- -H 'Content-Type: text/plain' -w '\n' -d world
+```
