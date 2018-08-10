@@ -7,7 +7,8 @@ Sample riff node greeter function to be used with Knative
 riff function create node greeter \
   --git-repo https://github.com/trisberg/node-fun-greeter.git \
   --artifact greeter.js \
-  --image $USER/node-fun-greeter
+  --image $USER/node-fun-greeter \
+  --env TEST=1
 ```
 
 ## invoke function
