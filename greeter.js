@@ -1,1 +1,1 @@
-module.exports = s => "hello " + s + " [" + process.env.TEST +"]!!";
+module.exports = s => "hello " + s + " [" + process.env.TEST +"]!";
